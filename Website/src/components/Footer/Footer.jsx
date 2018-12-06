@@ -17,6 +17,15 @@ function Footer({ ...props }) {
                     <List className={classes.list}>
                         <ListItem className={classes.inlineBlock}>
                             <a
+                                href="https://github.com/danielfct/ipm_project"
+                                target="_blank"
+                                className={classes.block}
+                            >
+                                Repositório global
+                            </a>
+                        </ListItem>
+                        <ListItem className={classes.inlineBlock}>
+                            <a
                                 href="https://github.com/danielfct/ipm"
                                 target="_blank"
                                 className={classes.block}
@@ -30,12 +39,12 @@ function Footer({ ...props }) {
                                 target="_blank"
                                 className={classes.block}
                             >
-                                Repositório do Savr
+                                Repositório do savr
                             </a>
                         </ListItem>
                         <ListItem className={classes.inlineBlock}>
                             <a
-                                href="http://ctp.di.fct.unl.pt/miei/ipm/page4/page4.html"
+                                href="http://ctp.di.fct.unl.pt/miei/ipm/"
                                 target="_blank"
                                 className={classes.block}
                             >

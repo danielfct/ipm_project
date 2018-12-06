@@ -188,7 +188,7 @@ class Sidebar extends React.Component {
             }}
             onClose={this.props.handleDrawerToggle}
             ModalProps={{
-              keepMounted: true // Better open performance on mobile.
+              keepMounted: true
             }}
           >
             {brand}

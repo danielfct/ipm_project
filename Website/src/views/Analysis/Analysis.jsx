@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import withStyles from "@material-ui/core/styles/withStyles";
 import Paper from "@material-ui/core/Paper/Paper";
-import Typography from "@material-ui/core/es/Typography/Typography";
+import Typography from "@material-ui/core/Typography/Typography";
 import {LabelOutlined} from "@material-ui/icons";
 
 class Analysis extends React.Component {

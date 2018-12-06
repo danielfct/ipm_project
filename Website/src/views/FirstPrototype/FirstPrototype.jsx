@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import withStyles from "@material-ui/core/styles/withStyles";
 import Paper from "@material-ui/core/Paper/Paper";
-import Typography from "@material-ui/core/es/Typography/Typography";
+import Typography from "@material-ui/core/Typography/Typography";
 import {LabelOutlined} from "@material-ui/icons";
 import classNames from "classnames";
 import loginPageImage from "assets/images/loginPageImage.png";
@@ -28,6 +28,13 @@ import testsImage3 from "assets/images/testsImage3.png";
 import testsImage4 from "assets/images/testsImage4.png";
 import testsImage5 from "assets/images/testsImage5.png";
 import testsImage6 from "assets/images/testsImage6.png";
+
+import prototypeProf1 from "assets/images/PrototypeProf1.JPG";
+import prototypeProf2 from "assets/images/PrototypeProf2.JPG";
+import prototypeProf3 from "assets/images/PrototypeProf3.JPG";
+import prototypeProf4 from "assets/images/PrototypeProf4.JPG";
+import prototypeProf5 from "assets/images/PrototypeProf5.JPG";
+import prototypeProf6 from "assets/images/PrototypeProf6.JPG";
 
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
@@ -183,37 +190,46 @@ class FirstPrototype extends React.Component {
                         <LabelOutlined className={classes.icon}/>Fotos do Protótipo</Typography>
                 </Paper>
                 <Carousel
-                    className={classes.carousel}
                     showStatus={false}
                     infiniteLoop={true}
                     useKeyboardArrows={true}
                     autoPlay={true}
                     dynamicHeight={true}
+                    className={classes.carousel}
                 >
-                    <div>
-                        <img src={prototypeImage1} alt={"..."}/>
-                    </div>
-                    <div>
-                        <img src={prototypeImage2} alt={"..."}/>
-                    </div>
-                    <div>
-                        <img src={prototypeImage3} alt={"..."}/>
-                    </div>
-                    <Typography variant={"caption"} className={classNames(classes.imageLegend, classes.centerText)}>
-                        Figura 15 - Protótipo</Typography>
+                    <img src={prototypeImage1} alt={"..."}/>
+                    <img src={prototypeImage2} alt={"..."}/>
+                    <img src={prototypeImage3} alt={"..."}/>
                 </Carousel>
+                <Typography variant={"caption"} className={classNames(classes.imageLegend, classes.centerText)}>
+                    Figura 15 - Protótipo</Typography>
+                <Paper className={classes.paper}>
+                    <Typography variant={"title"} className={classes.centerText}>
+                        <LabelOutlined className={classes.icon}/>Fotos da interação com o protótipo no dia de testes</Typography>
+                </Paper>
+                <Carousel
+                    showStatus={false}
+                    infiniteLoop={true}
+                    useKeyboardArrows={true}
+                    autoPlay={true}
+                    dynamicHeight={true}
+                    className={classes.carousel}
+                >
+                    <img src={prototypeProf1} alt={"..."}/>
+                    <img src={prototypeProf2} alt={"..."}/>
+                    <img src={prototypeProf3} alt={"..."}/>
+                    <img src={prototypeProf4} alt={"..."}/>
+                    <img src={prototypeProf5} alt={"..."}/>
+                    <img src={prototypeProf6} alt={"..."}/>
+                </Carousel>
+                <Typography variant={"caption"} className={classNames(classes.imageLegend, classes.centerText)}>
+                    Figura 16 - Interação com o protótipo no dia de testes</Typography>
             </div>
         )
     }
 }
 
 const style = {
-    carousel: {
-        display: "table",
-        alignText: "center",
-        width: "50%",
-        height: "50%"
-    },
     text: {
         marginLeft: "5%",
         marginRight: "5%",
@@ -242,6 +258,13 @@ const style = {
     imageLegend: {
         paddingBottom: "5px"
     },
+    carousel: {
+        width: "50%",
+        display: "block",
+        marginLeft: "auto",
+        marginRight: "auto",
+        marginTop: "30px"
+    }
 };
 
 export default withStyles(style)(FirstPrototype);

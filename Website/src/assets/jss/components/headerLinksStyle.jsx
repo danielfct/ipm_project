@@ -3,10 +3,8 @@ import {
   dangerColor
 } from "assets/jss/ipm.jsx";
 
-import dropdownStyle from "assets/jss/components/dropdownStyle.jsx";
 
 const headerLinksStyle = theme => ({
-  ...dropdownStyle(theme),
   search: {
     "& > div": {
       marginTop: "0"

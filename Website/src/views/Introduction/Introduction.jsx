@@ -8,11 +8,14 @@ import { cardTitle, title } from "assets/jss/ipm.jsx";
 import avatar from "assets/images/avatar.jpg";
 import imagesStyle from "assets/jss/components/imagesStyles.jsx";
 import classNames from "classnames";
-import Typography from "@material-ui/core/es/Typography/Typography";
+import Typography from "@material-ui/core/Typography/Typography";
 import SvgGithub from "../../assets/icons/SvgGithub";
 import {People} from "@material-ui/icons";
 import Button from "@material-ui/core/Button/Button";
 import Image from 'material-ui-image'
+import joao from "assets/images/joao.jpg";
+import filipe from "assets/images/filipe.jpg";
+import daniel from "assets/images/daniel.jpg";
 
 class Introduction extends React.Component {
     render() {
@@ -33,7 +36,7 @@ class Introduction extends React.Component {
                         <Card item>
                             <div className={classes.cardContent}>
                                 <Grid item xs={12} sm={12} md={6} className={classes.itemGrid}>
-                                    <Image src={avatar} alt="..." className={imageClasses}/>
+                                    <Image src={joao} alt="..." className={imageClasses}/>
                                 </Grid>
                                 <div className={classes.centerText}>
                                     <h4 className={classes.cardTitle}>
@@ -54,7 +57,7 @@ class Introduction extends React.Component {
                         <Card item>
                             <div className={classes.cardContent}>
                                 <Grid xs={12} sm={12} md={6} className={classes.itemGrid}>
-                                    <Image src={avatar} alt="..." className={imageClasses}/>
+                                    <Image src={filipe} alt="..." className={imageClasses}/>
                                 </Grid>
                                 <div className={classes.centerText}>
                                     <h4 className={classes.cardTitle}>
@@ -75,7 +78,7 @@ class Introduction extends React.Component {
                         <Card item>
                             <div className={classes.cardContent}>
                                 <Grid item xs={12} sm={12} md={6} className={classes.itemGrid}>
-                                    <Image src={avatar} alt="..." className={imageClasses}/>
+                                    <Image src={daniel} alt="..." className={imageClasses}/>
                                 </Grid>
                                 <div className={classes.centerText}>
                                     <h4 className={classes.cardTitle}>
@@ -96,10 +99,26 @@ class Introduction extends React.Component {
                 <div className={classes.center}>
                     <Button
                         className={classes.button}
+                        href="https://github.com/danielfct/ipm_project"
+                        target="_blank">
+                        <Paper className={classes.repositoryLink}>
+                            <Typography><SvgGithub className={classes.icon}/>Repositório global</Typography>
+                        </Paper>
+                    </Button>
+                    <Button
+                        className={classes.button}
                         href="https://github.com/danielfct/ipm"
                         target="_blank">
                         <Paper className={classes.repositoryLink}>
-                            <Typography><SvgGithub className={classes.icon}/>Repositório git</Typography>
+                            <Typography><SvgGithub className={classes.icon}/>Repositório deste website</Typography>
+                        </Paper>
+                    </Button>
+                    <Button
+                        className={classes.button}
+                        href="https://github.com/danielfct/savr"
+                        target="_blank">
+                        <Paper className={classes.repositoryLink}>
+                            <Typography><SvgGithub className={classes.icon}/>Repositório do savr</Typography>
                         </Paper>
                     </Button>
                 </div>
@@ -139,6 +158,7 @@ const style = {
     button: {
         padding: "0",
         marginTop: "20px",
+        marginRight: "30px",
         display: "inline-block",
     },
     repositoryLink: {

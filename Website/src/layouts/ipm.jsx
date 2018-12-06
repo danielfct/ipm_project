@@ -57,7 +57,7 @@ class App extends React.Component {
   }
   componentDidMount() {
     window.addEventListener("resize", this.resizeFunction);
-  }
+  }sc
 
   componentDidUpdate(e) {
     if (e.history.location.pathname !== e.location.pathname) {
