@@ -1,0 +1,5 @@
+peach: #fedcd2
+orange: #Df744A
+lemon: #DCB239
+powder: #bfd8d2
+azul: #17a2b8

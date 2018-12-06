@@ -1,0 +1,25 @@
+.navbar{
+    background: #233237;
+    min-height: 60px;
+}
+
+.navbar a{
+    color: #E5E5E5;
+    font-size: 22px;
+    outline: none;
+}
+
+.navbar a:hover{
+    color: #DDEAEE;
+}
+
+#navbar-tog-btn{
+    min-width: 30px;
+    border: none;
+}
+
+.navbar-brand{
+    color: #E5E5E5 !important;
+    font-size: 22px;
+    outline: none;
+}

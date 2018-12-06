@@ -1,0 +1,61 @@
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    height: 40vmin;
+    margin-bottom: 50px;
+}
+
+.App-header {
+    background-color: #DDEAEE;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.wake-title{
+    margin-bottom: 100px;
+    color: #233237;
+}
+
+#container {
+    text-align: center;
+    width: 500px;
+}
+
+button {
+    display: inline-block;
+    min-width: 172px;
+}
+
+.divider {
+    display: inline-block;
+}
+
+.btn{
+    background-color: #233237;
+    color: #E5E5E5;
+}
+
+#error{
+    text-align: center;
+    color: red;
+    font-size: 18px;
+}

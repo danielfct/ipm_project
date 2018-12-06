@@ -1,0 +1,12 @@
+{
+    "bread":[
+        {"name":"Pão de Hambúrguer Artesanal","price":0.40,"link":"http://www.paoreal.pt/wp-content/uploads/2016/10/Pão-Hamburguer.jpg", "total": 0},
+        {"name":"Pão de Mafra","price":0.96,"link":"http://www.paoreal.pt/wp-content/uploads/2016/10/Bolinhas-Mafra.jpg", "total": 0},
+        {"name":"Pão Saloio","price":0.16,"link":"http://www.paoreal.pt/wp-content/uploads/2016/10/Pão-Saloio.jpg", "total": 0},
+        {"name":"Pão de Deus","price":1.15,"link":"http://www.paoreal.pt/wp-content/uploads/2016/10/Pão-de-Deus.jpg", "total": 0},
+        {"name":"Pão Integral","price":0.26,"link":"http://www.paoreal.pt/wp-content/uploads/2016/10/Pão-Integral.jpg", "total": 0},
+        {"name":"Pão com choriço","price":1.50,"link":"http://www.paoreal.pt/wp-content/uploads/2016/10/Pão-com-Chouriço-fatiado.jpg", "total": 0},
+        {"name":"Pão de leite","price":0.50,"link":"http://www.paoreal.pt/wp-content/uploads/2016/10/Pão-de-Leite.jpg", "total": 0},
+        {"name":"Papo Seco","price":0.09,"link":"http://www.paoreal.pt/wp-content/uploads/2016/10/Papossecos.jpg", "total": 0}
+    ]
+}

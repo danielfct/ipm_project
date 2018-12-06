@@ -1,0 +1,13 @@
+{
+	"user":[
+		{
+			"name":"Filipe Pires",
+			"email":"filipe_pires@gmail.com",
+			"password":"password123",
+			"phone":"937635928",
+			"balance": 0,
+			"address":["Rua Alfredo Cunha"],
+			"plan":"0"
+		}
+	]
+}

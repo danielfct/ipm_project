@@ -1,0 +1,17 @@
+.scrollable-menu {
+    height: auto;
+    max-height: 200px;
+    overflow-x: hidden;
+}
+
+.border{
+    border: 1px solid #233237 !important;
+}
+
+.right{
+    float: right;
+}
+
+.max-width{
+    width: 100%;
+}

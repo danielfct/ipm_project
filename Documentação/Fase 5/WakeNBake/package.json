@@ -1,0 +1,21 @@
+{
+ "name": "wakebakeProject",
+ "version": "1.0.0",
+ "description": "",
+ "main": "index.js",
+ "scripts": {
+  "postinstall": "(cd wake-bake && npm install); (cd wake-bake/Server && npm install)",
+  "client": "cd wake-bake && npm start",
+  "server": "cd wake-bake/Server && npm start",
+  "start": "concurrently - kill-others \"npm run server\" \"npm run client\""
+ },
+ "keywords": [],
+ "author": "",
+ "license": "ISC",
+ "devDependencies": {
+  "concurrently": "4.1.0"
+ },
+ "dependencies": {
+  "axios": "^0.18.0"
+ }
+}

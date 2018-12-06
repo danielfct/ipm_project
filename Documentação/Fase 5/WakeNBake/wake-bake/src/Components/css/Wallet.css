@@ -1,0 +1,22 @@
+#content{
+    padding-top: 140px;
+}
+
+#balance, #sub-btn-div{
+    text-align: center;
+}
+
+#headline{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.payments{
+    padding-top: 40px;
+}
+
+#payment-options {
+    /* color: #000;
+    color: rgba(0, 0, 0, 0);
+    text-shadow: 0 0 0 #000; */
+}

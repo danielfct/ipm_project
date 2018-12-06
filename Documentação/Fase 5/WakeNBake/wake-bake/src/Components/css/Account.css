@@ -1,0 +1,29 @@
+
+/* not active */
+.nav .item-1 .nav-link:not(.active){
+    color: #233237;
+    text-decoration: none;
+}
+
+.nav .item-2 .nav-link:not(.active){
+    color: #233237;
+    text-decoration: none;
+}
+
+
+/* active */
+.nav .item-1 .nav-link {
+    outline: none;
+    color: #233237;
+    text-decoration: underline;
+}
+
+.nav .item-2 .nav-link {
+    outline: none;
+    color: #233237;
+    text-decoration: underline;
+}
+
+.nav-link{
+    font-size: 20px;
+}
